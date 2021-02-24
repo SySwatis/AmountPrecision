@@ -1,16 +1,9 @@
 {
   "name": "syswatis/amountprecision",
-  "version": "1.0.0",
+  "version": "v1.0",
   "description": "Changing the display of custom product price to show 4 decimal places",
   "type": "magento2-module",
   "license": "OSL-3.0",
-  "authors": [
-    {
-        "email": "syswatis@gmail.com",
-        "name": "Stéphane JIMENEZ"
-    }
-  ],
-  "require": {},
   "autoload": {
     "files": [
       "registration.php"
