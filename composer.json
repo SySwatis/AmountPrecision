@@ -1,0 +1,22 @@
+{
+  "name": "syswatis/amountprecision",
+  "version": "1.0.0",
+  "description": "this module manage customer and order (Api,WS)",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+        "email": "syswatis@gmail.com",
+        "name": "Stéphane JIMENEZ"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Syswatis\\AmountPrecision\\": ""
+    }
+  }
+}
