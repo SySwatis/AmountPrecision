@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+  <type name="Magento\Framework\Pricing\Render\Amount">
+    <plugin name="syswatis_amountprecision_framework_pricing_render_amount" type="Syswatis\AmountPrecision\Plugin\Framework\Pricing\Render\Amount" />
+  </type>
+  <type name="Magento\Directory\Model\PriceCurrency">
+    <plugin name="syswatis_amountprecision_directory_model_pricecurrency" type="Syswatis\AmountPrecision\Plugin\Directory\Model\PriceCurrency" />
+  </type>
+  <type name="Magento\Framework\Locale\Format">
+    <plugin name="syswatis_amountprecision_framework_locale_format" type="Syswatis\AmountPrecision\Plugin\Framework\Locale\Format" />
+  </type>
+</config>
